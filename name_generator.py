@@ -1,3 +1,4 @@
+import random
 
 races = {
     "orc":{
@@ -25,10 +26,17 @@ def race_info(names):
     show_names(names)
     count_names(names)
 
+####Now freezed
+##race_info(races["orc"]["male"])
+##race_info(races["orc"]["female"])
+##race_info(races["elf"]["male"])
+##race_info(races["elf"]["female"])
+##race_info(races["human"]["male"])
+##race_info(races["human"]["female"])
 
-race_info(races["orc"]["male"])
-race_info(races["orc"]["female"])
-race_info(races["elf"]["male"])
-race_info(races["elf"]["female"])
-race_info(races["human"]["male"])
-race_info(races["human"]["female"])
+user_target_race = input("What race name do you want to generate(orc, elf or human)?").lower()
+user_target_gender = input("What about gender?").lower()
+
+
+
+print(random.choice(races[user_target_race][user_target_gender]))
