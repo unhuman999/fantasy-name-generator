@@ -34,8 +34,24 @@ def race_info(names):
 ##race_info(races["human"]["male"])
 ##race_info(races["human"]["female"])
 
-user_target_race = input("What race name do you want to generate(orc, elf or human)?").lower()
-user_target_gender = input("What about gender?").lower()
+
+while True:
+    user_target_race = input("What race name do you want to generate(orc, elf or human)? ").lower()
+    if user_target_race in races:
+        break
+    print("Race not defined, choose correct race from list Orc, Human, Elf:")
+
+while True:
+    user_target_gender = input("What about gender?").lower()
+    if user_target_gender in races[user_target_race]:
+        break
+    print("Choose correct gender(male/female):")
+
+
+
+
+
+
 
 
 
