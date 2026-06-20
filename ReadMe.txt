@@ -19,3 +19,4 @@ Completed changes:
 - Changed lists to nested dictionary
 - Added random.choice()
 - Added validation
+- Refractor code into functions
