@@ -1,0 +1,14 @@
+{
+    "orc":{
+        "male":["Azgoth", "Borgakh", "Durgash", "Grommash", "Khazuk", "Mogdurz", "Nagrul", "Ruggoth", "Thokrak", "Uzgash"],
+        "female":["Agtha", "Borga", "Duhgasha", "Gorshka", "Khagra", "Lagak", "Mugra", "Nagra", "Sharga", "Urzga"]
+    },
+    "elf":{
+        "male":["Aelar", "Thalanil", "Faelivrin", "Kaelen", "Ornthalas", "Rielan", "Sildor", "Theron", "Valandris", "Zylarien"],
+        "female":["Aelindel", "Celethiel", "Elowen", "Faeruna", "Laeral", "Merilwen", "Nimphiel", "Sariel", "Thaviel", "Yavanna"]
+    },
+    "human":{
+        "male":["Aldric", "Brennan", "Corvin", "Darian", "Evander", "Gregor", "Haldric", "Loric", "Randver", "Theron"],
+        "female":["Adara", "Brigid", "Caelia", "Elara", "Gwendolyn", "Isolde", "Linette", "Rosamund", "Seren", "Theodora"]
+    }
+}
