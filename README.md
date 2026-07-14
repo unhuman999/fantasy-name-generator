@@ -11,14 +11,14 @@ GitHub Repository: https://github.com/unhuman999/fantasy-name-generator
 Current version:
 - Console application
 - Random name selection from JSON datasets
-- Support for Human, Elf, and Orc races
+- Support for Human, Elf, Dwarf and Orc races
 - Male and Female name generation
 
 
 ## Features
 
 - Generate fantasy names for multiple races.
-- Support for Human, Elf, and Orc races.
+- Support for Human, Elf, Dwarf and Orc races.
 - Generate both male and female names.
 - Store names in structured JSON datasets.
 - Simple and lightweight console interface.
@@ -29,8 +29,8 @@ Current version:
 
 ### Dataset Expansion
 - [x] Expand the dataset with over 17,000 curated fantasy names.
-- [ ] Add Dwarf race support.
-- [ ] Improve dataset quality by removing duplicates and invalid names.
+- [x] Add Dwarf race support.
+- [x] Improve dataset quality by removing duplicates and invalid names.
 
 ### Generator Improvements
 - [ ] Replace pure random selection with syllable-based name generation.

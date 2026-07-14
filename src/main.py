@@ -4,10 +4,10 @@ from src.utils import load_dataset
 
 def get_race(races):
     while True:
-        user_races_input = input("Choose a race (orc, elf, or human): ").lower()
+        user_races_input = input("Choose a race (Orc, Elf, Dwarf or Human): ").lower()
         if user_races_input in races:
             return user_races_input
-        print("Race not defined, choose correct race from list Orc, Human, Elf:")
+        print("Race not defined, choose correct race from list Orc, Human, Elf, Dwarf:")
 
 def get_gender(chosen_race, races_data):
     while True:
