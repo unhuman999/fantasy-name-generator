@@ -4,14 +4,14 @@ from src.utils import load_dataset
 
 def get_race(races):
     while True:
-        user_races_input = input("What race name do you want to generate(orc, elf or human)? ").lower()
+        user_races_input = input("Choose a race (orc, elf, or human): ").lower()
         if user_races_input in races:
             return user_races_input
         print("Race not defined, choose correct race from list Orc, Human, Elf:")
 
 def get_gender(chosen_race, races_data):
     while True:
-        user_gender_input = input("What about gender?").lower()
+        user_gender_input = input("What about gender? ").lower()
         if user_gender_input in races_data[chosen_race]:
             return user_gender_input
         print("Choose correct gender(male/female):")

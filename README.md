@@ -2,7 +2,7 @@
 
 A Python console application that generates fantasy names based on the selected race and gender.
 The project is currently under active development and aims to evolve from a random name selector into a procedural fantasy name generator, with future exploration of machine learning techniques.
-
+GitHub Repository: https://github.com/unhuman999/fantasy-name-generator
 
 ## Project Status
 
@@ -28,7 +28,7 @@ Current version:
 ## Roadmap
 
 ### Dataset Expansion
-- [ ] Expand the dataset with 20,000+ curated fantasy names.
+- [x] Expand the dataset with over 17,000 curated fantasy names.
 - [ ] Add Dwarf race support.
 - [ ] Improve dataset quality by removing duplicates and invalid names.
 
@@ -105,9 +105,12 @@ fantasy-name-generator/
 
 ## Dataset
 
-Fantasy names are stored in JSON files.
-Each race has separate datasets for male and female names.
-The dataset is continuously expanding to improve name variety and support additional fantasy races.
+Fantasy names are stored in structured JSON files.
+
+- Separate datasets for each race.
+- Male and female names are stored independently.
+- The dataset currently contains over 17,000 curated fantasy names.
+- Future updates will focus on dataset quality and support for additional fantasy races.
 
 
 ## Technologies
