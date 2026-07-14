@@ -1,6 +1,7 @@
 import random
 import sys
 from src.utils import load_dataset
+from src.generator import random_names, generate_hybrid_name
 
 def get_race(races):
     while True:
@@ -33,6 +34,17 @@ if __name__ == "__main__":
 
     user_target_race = get_race(races_dataset)
     user_target_gender = get_gender(user_target_race, races_dataset)
-    generated_name=generate_name(user_target_race, user_target_gender, races_dataset)
-    print(generated_name)
+    print("\nChoose generation mode:")
+    print("1. Take an authentic name from the database")
+    print("2. Create a unique hybrid name (Syllabic mix)")
+    mode = input("Enter mode number (1 or 2): ").strip()
+
+    if mode == "2":
+        n1, n2 = random_names(user_target_race, user_target_gender, races_dataset)
+        generated_name = generate_hybrid_name(n1, n2)
+        print(f"\n[Hybrid Mode] Original blueprints: {n1} + {n2}")
+    else:
+        generated_name=generate_name(user_target_race, user_target_gender, races_dataset)
+        print(f"\n[Classic Mode]")
+    print(f"Generated Name: {generated_name}")
 

@@ -1,23 +1,25 @@
-# Fantasy Name Generator
+# Fantasy Name Generator (MVP v0.2-alpha)
 
 A Python console application that generates fantasy names based on the selected race and gender.
-The project is currently under active development and aims to evolve from a random name selector into a procedural fantasy name generator, with future exploration of machine learning techniques.
+The project is currently under active development. It combines curated datasets with procedural generation techniques and is planned to evolve further through more advanced algorithms and future exploration of machine learning.
 GitHub Repository: https://github.com/unhuman999/fantasy-name-generator
 
 ## Project Status
 
 🚧 This project is currently under active development.
 
-Current version:
+Current version (v0.2alpha):
 - Console application
 - Random name selection from JSON datasets
-- Support for Human, Elf, Dwarf and Orc races
+- Procedural name generation using race-specific prefixes and suffixes
+- Support for Human, Elf, Orc, and Dwarf races
 - Male and Female name generation
 
 
 ## Features
 
 - Generate fantasy names for multiple races.
+- Generate fantasy names using race-specific prefixes and suffixes.
 - Support for Human, Elf, Dwarf and Orc races.
 - Generate both male and female names.
 - Store names in structured JSON datasets.
@@ -33,8 +35,9 @@ Current version:
 - [x] Improve dataset quality by removing duplicates and invalid names.
 
 ### Generator Improvements
-- [ ] Replace pure random selection with syllable-based name generation.
-- [ ] Introduce race-specific syllable patterns.
+
+- [x] Introduce procedural generation using race-specific prefixes and suffixes.
+- [ ] Improve procedural generation by using syllable-based patterns.
 - [ ] Improve name diversity while preserving race identity.
 
 ### Project Improvements
